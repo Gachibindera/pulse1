@@ -1,0 +1,42 @@
+.review {
+    padding-bottom: 70px;
+
+    &__clients {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding-top: 60px;
+    }
+    &__client {
+        display: flex;
+        gap: 60px;
+    }
+    img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        object-fit: cover;
+        
+    }
+    &__name {
+        color: $title-color;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__subtitle {
+        color: $grau-subtitle;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    &__text {
+        color: $title-color;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px; /* 150% */
+    }
+
+
+}
